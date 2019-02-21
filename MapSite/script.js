@@ -9,8 +9,8 @@
         const zoomLevel = 11;
 
     // Start and End year of the dataset
-        const baseStartYear = 1992;
-        const baseEndYear = 2019;
+        const baseStartYear = '1992-01-01';
+        const baseEndYear = '2019-01-01';
 
     //Markers & Clusters
         // The color of the markers, used in function customizeMarker()
@@ -22,6 +22,20 @@
 
     // Check line 170-174 to customize the information on tooltip for your data
 
+
+function formatDate(date) {
+      var monthNames = [
+        "January", "February", "March",
+        "April", "May", "June", "July",
+        "August", "September", "October",
+        "November", "December"
+      ];
+
+      var monthIndex = date.getMonth();
+      var year = date.getFullYear();
+
+      return monthNames[monthIndex] + ' ' + year;
+  }
 
 
 // Slider
@@ -48,9 +62,10 @@
         // config time range slider
             $( "#slider-range" ).slider({
                 range: true,
-                min: baseStartYear,
-                max: baseEndYear,
-                values: [ baseStartYear, baseEndYear],
+                min: new Date(baseStartYear).getTime(),
+                max: new Date(baseEndYear).getTime(),
+                values: [ new Date(baseStartYear).getTime(), new Date(baseEndYear).getTime() ],
+                step: 86400000,
 
                 // Every time slider is slided, the map should be refreshed
                     slide: function( event, ui ) {
@@ -61,7 +76,7 @@
                         let startYear = ui.values[ 0 ];
                         let endYear = ui.values[ 1 ];
 
-                        $( "#amount" ).val( startYear + " - " + endYear );
+                        $( "#amount" ).val( formatDate(new Date(startYear)) + " - " + formatDate(new Date(endYear)) );
 
                         $.getJSON(geoJsonURL, function(data){
                             let GEOJSON  = data;

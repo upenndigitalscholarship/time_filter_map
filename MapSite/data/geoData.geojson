@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1992",
-        "address": "2nd St.",
+        "Date": "1992-01-01",
+		"address": "2nd St.",
         "Count": "1"
       },
       "geometry": {
@@ -18,8 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1993",
-        "address": "5th St.",
+        "Date": "1993-01-01",
+		"address": "5th St.",
         "Count": "2"
       },
       "geometry": {
@@ -32,8 +32,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1994",
-        "address": "X St.",
+        "Date": "1994-01-01",
+		"address": "X St.",
         "Count": "9"
       },
       "geometry": {
@@ -46,8 +46,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1995",
-        "address": "Y St.",
+        "Date": "1995-01-01",
+		"address": "Y St.",
         "Count": "12"
       },
       "geometry": {
@@ -60,8 +60,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1996",
-        "address": "Z St.",
+        "Date": "1996-01-01",
+		"address": "Z St.",
         "Count": "1"
       },
       "geometry": {
@@ -74,8 +74,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1997",
-        "address": "A St.",
+        "Date": "1997-01-01",
+		"address": "A St.",
         "Count": "20"
       },
       "geometry": {
@@ -88,8 +88,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1998",
-        "address": "B St.",
+        "Date": "1998-01-01",
+		"address": "B St.",
         "Count": "1"
       },
       "geometry": {
@@ -102,8 +102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "1999",
-        "address": "C St.",
+        "Date": "1999-01-01",
+		"address": "C St.",
         "Count": "6"
       },
       "geometry": {
@@ -116,8 +116,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2000",
-        "address": "D St.",
+        "Date": "2000-01-01",
+		"address": "D St.",
         "Count": "4"
       },
       "geometry": {
@@ -130,8 +130,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2001",
-        "address": "E St.",
+        "Date": "2001-01-01",
+		"address": "E St.",
         "Count": "1"
       },
       "geometry": {
@@ -144,8 +144,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2002",
-        "address": "F St.",
+        "Date": "2002-01-01",
+		"address": "F St.",
         "Count": "2"
       },
       "geometry": {
@@ -158,8 +158,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2003",
-        "address": "G St.",
+        "Date": "2003-01-01",
+		"address": "G St.",
         "Count": "3"
       },
       "geometry": {
@@ -172,8 +172,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2004",
-        "address": "H St.",
+        "Date": "2004-01-01",
+		"address": "H St.",
         "Count": "2"
       },
       "geometry": {
@@ -186,8 +186,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2005",
-        "address": "I St.",
+        "Date": "2005-01-01",
+		"address": "I St.",
         "Count": "1"
       },
       "geometry": {
@@ -200,8 +200,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2006",
-        "address": "J St.",
+        "Date": "2006-01-01",
+		"address": "J St.",
         "Count": "1"
       },
       "geometry": {
@@ -214,8 +214,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2007",
-        "address": "K St.",
+        "Date": "2007-01-01",
+		"address": "K St.",
         "Count": "22"
       },
       "geometry": {
@@ -228,8 +228,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2008",
-        "address": "L St.",
+        "Date": "2008-01-01",
+		"address": "L St.",
         "Count": "7"
       },
       "geometry": {
@@ -242,8 +242,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2009",
-        "address": "M St.",
+        "Date": "2009-01-01",
+		"address": "M St.",
         "Count": "1"
       },
       "geometry": {
@@ -256,8 +256,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2010",
-        "address": "N St.",
+        "Date": "2010-01-01",
+		"address": "N St.",
         "Count": "3"
       },
       "geometry": {
@@ -270,8 +270,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2011",
-        "address": "O St.",
+        "Date": "2011-01-01",
+		"address": "O St.",
         "Count": "1"
       },
       "geometry": {
@@ -284,8 +284,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2012",
-        "address": "P St.",
+        "Date": "2012-01-01",
+		"address": "P St.",
         "Count": "2"
       },
       "geometry": {
@@ -298,8 +298,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2013",
-        "address": "Q St.",
+        "Date": "2013-01-01",
+		"address": "Q St.",
         "Count": "2"
       },
       "geometry": {
@@ -312,8 +312,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2014",
-        "address": "R St.",
+        "Date": "2014-01-01",
+		"address": "R St.",
         "Count": "1"
       },
       "geometry": {
@@ -326,8 +326,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2015",
-        "address": "S St.",
+        "Date": "2015-01-01",
+		"address": "S St.",
         "Count": "2"
       },
       "geometry": {
@@ -340,8 +340,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2016",
-        "address": "T St.",
+        "Date": "2016-01-01",
+		"address": "T St.",
         "Count": "12"
       },
       "geometry": {
@@ -354,8 +354,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2017",
-        "address": "U St.",
+        "Date": "2017-01-01",
+		"address": "U St.",
         "Count": "1"
       },
       "geometry": {
@@ -368,8 +368,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2018",
-        "address": "V St.",
+        "Date": "2018-01-01",
+		"address": "V St.",
         "Count": "25"
       },
       "geometry": {
@@ -382,8 +382,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "2019",
-        "address": "W St.",
+        "Date": "2019-01-01",
+		"address": "W St.",
         "Count": "16"
       },
       "geometry": {
